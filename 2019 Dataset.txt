@@ -1,0 +1,57 @@
+@messageparser add global "(?i)(getting|get) started" "echo To get started you should look through the suborgs, for the current suborg list just ask. I respond to questions about suborg's such as 'suborg list', 'what is suborg', 'contact suborg', and 'suborg ideas'."
+@messageparser add global "(?i)(easy|beginner) project" "echo Each sub org has projects for different experience levels. It's up to you to look through the ideas lists to see what suits your skills. Ask 'what is suborg' for more information."
+@messageparser add global "(?i)what is suborg" "echo A suborg is an organisation that takes part in GSOC under the PSF umbrella, the suborgs for 2018 are DIPY, Mercurial, MNE, PySAL, SciPy, Scrapinghub, SecureDrop, and Statsmodels. Ask me about those!"
+@messageparser add global "(?i)contact suborg" "echo I can give you the contact information for a suborg, just ask me about the specific suborg!"
+@messageparser add global "(?i)suborg idea" "echo Each suborg has there own ideas page, you can ask me for the ideas page of any suborg!"
+
+@messageparser add global "(?i)suborg list" "echo The 2019 suborgs are MNE-Python, PySAL, PSF GSoC Team, SciPy, StarKit, Nuitka, MSS - Mission Support System, EOS Design System, Scrapy, Statsmodels, Buildbot, CVE Binary Tool, Mercurial!"
+
+@messageparser add global "(?i)what is MNE-Python" "echo MNE is a free and open source software designed for processing electroencephalography (EEG) and magnetoencephalography (MEG) data. EEG and MEG data analysis requires advanced numerics, signal processing, statistics and dedicated visualization tools. MNE-Python is a pure Python package built on top of numpy, scipy, matplotlib and scikit-learn. "
+@messageparser add global "(?i)what is PySAL" "echo PySAL is a library for quantitative analysis of geographic data built on top of numpy and scipy.sparse.. The package includes methods for exploratory spatial data analysis and cluster detection, regression models with geographical data, space-time models, and visualization."
+@messageparser add global "(?i)what is PSF GSoC Team" "echo Under the Python Software Foundation (PSF) the GSoC Team has ran a GSoC umbrealla organisation for the Python language. This sub-org is being used to sponsor tools for the PSF GSoC team, specifically tools for managing GSoC from diverse sub-orgs for PSF."
+@messageparser add global "(?i)what is SciPy" "echo SciPy is a library that provides fundamental routines for scientific computing: statistics, optimization, integration, linear algebra, Fourier transforms, signal processing, and more."
+@messageparser add global "(?i)what is StarKit" "echo StarKit is a library to infer stellar parameters from astrophysical observations"
+@messageparser add global "(?i)what is Nuitka" "echo Nuitka is a Python compiler written in Python. The mission is make Python a C speed programming language with graceful degration, i.e. simple Python is very fast, while using all the features is still faster. "
+@messageparser add global "(?i)what is MSS - Mission Support System" "echo MSS is a web service based client/server application to plan atmospheric research flights."
+@messageparser add global "(?i)what is EOS Design System" "echo EOS is the first open source and customizable Design System to help open source, SMEs, and all sizes of organizations deliver outstanding user interfaces and consistent user experience."
+
+
+
+@messageparser add global "(?i)contact MNE-Python" "echo Please see https://gitter.im/mne-tools/mne-python"
+@messageparser add global "(?i)contact PySAL" "echo Please see https://gitter.im/pysal/pysal"
+@messageparser add global "(?i)contact PSF GSoC Team" "echo Ask Botanic, dotgourav, Meflin, or Warthog9 for assistance in this channel."
+@messageparser add global "(?i)contact SciPy" "echo Please see https://scipy.org/scipylib/mailing-lists.html"
+@messageparser add global "(?i)contact StarKit" "echo Please see https://gitter.im/starkit/gsoc2019"
+@messageparser add global "(?i)contact Nuitka" "echo missing"
+@messageparser add global "(?i)contact MSS - Mission Support System" "echo Please see https://bitbucket.org/wxmetvis/mss/wiki/Contact"
+@messageparser add global "(?i)contact EOS Design System" "echo Please see https://eos-community.slack.com/"
+
+@messageparser add global "(?i)MNE-Python ideas" "echo Please see https://github.com/mne-tools/mne-python/wiki/GSOC-Ideas"
+@messageparser add global "(?i)PySAL ideas" "echo Please see https://github.com/pysal/pysal/wiki/Google-Summer-of-Code-2019"
+@messageparser add global "(?i)PSF GSoC Team ideas" "echo Please see http://python-gsoc.org/psf_ideas.html"
+@messageparser add global "(?i)SciPy ideas" "echo Please see https://github.com/scipy/scipy/wiki/GSoC-2019-project-ideas"
+@messageparser add global "(?i)StarKit ideas" "echo Please see http://opensupernova.org/starkit_gsoc2019/doku.php?id=ideas_page"
+@messageparser add global "(?i)Nuitka ideas" "echo Please see http://nuitka.net/pages/gsoc2019.html#ideas"
+@messageparser add global "(?i)MSS - Mission Support System ideas" "echo Please see https://bitbucket.org/wxmetvis/mss/wiki/GSOC2019/project-ideas"
+@messageparser add global "(?i)EOS Design System ideas" "echo Please see https://gitlab.com/SUSE-UIUX/eos/wikis/GSoC-2019-Sub-org-at-Python.org:-EOS"
+
+
+@messageparser add global "(?i)what is Scrapy" "echo Scrapy is the world's best-loved scraping framework, helping people to efficiently extract and use web-data using Python."
+@messageparser add global "(?i)contact Scrapy" "echo Please see https://webchat.freenode.net/?channels=scrapy"
+@messageparser add global "(?i)Scrapy ideas" "echo Please see https://gsoc2019.scrapinghub.com/ideas"
+
+@messageparser add global "(?i)what is Statsmodels" "echo Statsmodels is a general purpose statistics and econometrics package written in Python and some Cython. It is part of the scientific Python stack that is oriented towards data analysis, data science and statistics, but is also used for statistical analysis in science, engineering and other fields."
+@messageparser add global "(?i)contact Statsmodels" "echo Please see https://groups.google.com/forum/#!forum/pystatsmodels"
+@messageparser add global "(?i)Statsmodels ideas" "echo Please see https://github.com/statsmodels/statsmodels/wiki/Google-Summer-of-Code-2019"
+
+@messageparser add global "(?i)what is Scrapy" "echo Scrapy is the world's best-loved scraping framework, helping people to efficiently extract and use web-data using Python."
+@messageparser add global "(?i)contact Scrapy" "echo Please see https://webchat.freenode.net/?channels=scrapy"
+@messageparser add global "(?i)Scrapy ideas" "echo Please see https://gsoc2019.scrapinghub.com/ideas"
+
+@messageparser add global "(?i)what is Scrapy" "echo Scrapy is the world's best-loved scraping framework, helping people to efficiently extract and use web-data using Python."
+@messageparser add global "(?i)contact Scrapy" "echo Please see https://webchat.freenode.net/?channels=scrapy"
+@messageparser add global "(?i)Scrapy ideas" "echo Please see https://gsoc2019.scrapinghub.com/ideas"
+
+@messageparser add global "(?i)what is Scrapy" "echo Scrapy is the world's best-loved scraping framework, helping people to efficiently extract and use web-data using Python."
+@messageparser add global "(?i)contact Scrapy" "echo Please see https://webchat.freenode.net/?channels=scrapy"
+@messageparser add global "(?i)Scrapy ideas" "echo Please see https://gsoc2019.scrapinghub.com/ideas"
