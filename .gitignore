@@ -1,3 +1,4 @@
 *.bak
 *.log
+/PyGSOCBot.conf
 /conf/users.conf
